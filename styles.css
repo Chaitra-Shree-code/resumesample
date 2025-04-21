@@ -76,7 +76,7 @@ body {
   
   .about-section {
     position: relative;
-    background: url('background.jpg') no-repeat center center/cover;
+    background: url('1.png') no-repeat center center/cover;
     padding: 100px 80px;
     text-align: center;
     color: #fff;
@@ -220,11 +220,18 @@ body {
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
   }
   
+  .timeline-content:hover {
+    transform: translateX(20px);
+    transition: transform 0.3s ease;
+  }
+
+
   .timeline-content h3 {
     margin: 0;
     font-size: 1.4rem;
     font-weight: bold;
   }
+  
   
   .timeline-years {
     margin: 5px 0;
@@ -341,12 +348,13 @@ body {
     background-color: #141414;
     padding: 2rem 1.5rem;
     border-radius: 12px;
-    width: 200px;
+    width: 150px;
     text-align: center;
     color: #fff;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   
+
   .achievement-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 0 10px #a78bfa55;
